@@ -4,6 +4,7 @@ public class ThirdJAVAclass {
         public static void main(String[] args) {
             getfrequencyOfChars("AAABBCDD");
         }
+        //this will
 
         private static void getfrequencyOfChars(String str) {
             String freq = "";
