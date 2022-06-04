@@ -18,6 +18,7 @@ public class LambdaFile07 {
 
         //Tüm karakterleri büyük harfe dönüştürün ve okuyun,
 
+
         try {
             Files.lines(Paths.get("C:\\Users\\ipek\\IdeaProjects\\untitled2\\src\\lambda\\LambdaFile")).map(String::toUpperCase).forEach(t->System.out.println(t));
         } catch (IOException e) {
